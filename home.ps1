@@ -48,8 +48,6 @@ choco install -y bitvise-ssh-client
 
 #--- Setting up Azure tools ---
 choco install -y azure-cli
-Install-PackageProvider -Name NuGet -Force
-Install-Module -Name Az -AllowClobber -Force
 choco install -y microsoftazurestorageexplorer
 
 #--- Setting up Games and media ---
