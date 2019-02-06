@@ -55,11 +55,11 @@ choco install -y microsoftazurestorageexplorer
 # choco install -y discord
 
 #--- Virtualisation et al ---
-executeScript "HyperV.ps1";
-RefreshEnv
-executeScript "WSL.ps1";
-RefreshEnv
-executeScript "Docker.ps1";
+#executeScript "HyperV.ps1";
+#RefreshEnv
+#executeScript "WSL.ps1";
+#RefreshEnv
+#executeScript "Docker.ps1";
 
 #--- Explorer settings ---
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions
