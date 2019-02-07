@@ -35,6 +35,8 @@ choco install -y ublockorigin-firefox
 choco install -y enpass.install
 choco install -y authy-desktop
 choco install -y telegram.install
+choco install -y chocolatey
+choco install -y microsoft-teams 
 
 #--- Setting up work tools ---
 choco install -y vscode
